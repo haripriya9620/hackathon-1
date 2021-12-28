@@ -1,8 +1,6 @@
 var clientId = '887760252808-e1450mj521a9s9ffd4orgr7et6cvd58s.apps.googleusercontent.com';
 var apiKey = 'AIzaSyBlla1IO2zWkRzlH2yt55tgFGsjDFG2k3s';
-var scopes =
-        'https://www.googleapis.com/auth/gmail.readonly ' +
-        'https://www.googleapis.com/auth/gmail.send';
+var scopes = 'https://www.googleapis.com/auth/gmail.readonly';
 
 function handleClientLoad() {
     gapi.client.setApiKey(apiKey);
